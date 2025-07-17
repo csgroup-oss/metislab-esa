@@ -5,7 +5,7 @@ cartopy~=0.22
 cffi==1.15.0
 eodag~=3.1
 eodag-cube~=0.4
-eodag-labextension==5.0.0
+eodag-labextension==5.2.0
 fiona~=1.8
 folium~=0.12
 gdal2tiles~=0.1
@@ -13,7 +13,7 @@ geojson~=3.1
 geopandas~=1.0
 geopy~=2.4
 # ipyleafet pin to avoid leaflet draw issue into eodag-labextension
-ipyleaflet==0.17.3
+ipyleaflet>=0.18.0
 ipyvolume~=0.6
 jupyterhub~=3.1 # Downgrade jupyterhub to fix an issue with eodag-labextension
 # jupyterlab-drawio~=0.9 # Removed because no version compatible with jupyterlab v4
