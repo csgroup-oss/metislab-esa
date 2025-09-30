@@ -3,9 +3,9 @@ basemap-data-hires~=1.3
 cartopy~=0.22
 # cffi 1.15.1 includes a ffi library that’s too recent and not compatible with the system library. https://github.com/Kozea/cairocffi/issues/202
 cffi==1.15.0
-eodag~=3.1
-eodag-cube~=0.4
-eodag-labextension==5.2.0
+eodag==3.9.0
+eodag-cube==0.6.1
+eodag-labextension==5.2.4
 fiona~=1.8
 folium~=0.12
 gdal2tiles~=0.1
@@ -15,7 +15,6 @@ geopy~=2.4
 # ipyleafet pin to avoid leaflet draw issue into eodag-labextension
 ipyleaflet>=0.18.0
 ipyvolume~=0.6
-jupyterhub~=3.1 # Downgrade jupyterhub to fix an issue with eodag-labextension
 # jupyterlab-drawio~=0.9 # Removed because no version compatible with jupyterlab v4
 jupyterlab-geojson~=3.2
 mapboxgl~=0.10
