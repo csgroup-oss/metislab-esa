@@ -19,6 +19,6 @@ export GDAL_NUM_THREADS=$OMP_NUM_THREADS
 
 pip install --no-cache-dir --upgrade \
     "cython~=3.0" \
-    "pygdal==3.4.1.10"
+    "pygdal==3.4.1.12"
 
 layer-cleanup.sh
