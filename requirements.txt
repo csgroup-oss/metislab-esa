@@ -28,5 +28,5 @@ rio-tiler~=6.4
 rioxarray~=0.15
 rtree~=1.0
 shapely~=2.0
-spatialpandas==0.4
+spatialpandas==0.5
 xarray-spatial~=0.3
