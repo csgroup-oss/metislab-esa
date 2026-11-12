@@ -15,6 +15,8 @@ dependencies:
   - geopandas
   - geopy
   - ipyleaflet
+  # mapboxgl imports IPython.core.display.display, removed in IPython 9
+  - ipython<9
   - ipyvolume
   - libgdal-grib
   - libgdal-hdf5
