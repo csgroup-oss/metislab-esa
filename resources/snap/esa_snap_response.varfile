@@ -1,8 +1,8 @@
-# install4j response file for ESA SNAP 9.0
+# install4j response file for ESA SNAP 12.0
 deleteSnapDir=ALL
 executeLauncherWithPythonAction$Boolean=true
 forcePython$Boolean=true
-pythonExecutable=/usr/local/bin/python
+pythonExecutable=/srv/conda/envs/notebook/bin/python
 sys.adminRights$Boolean=true
 sys.component.RSTB$Boolean=true
 sys.component.S1TBX$Boolean=true

@@ -1,0 +1,31 @@
+name: notebook
+channels:
+  - conda-forge
+dependencies:
+  # Python version of metislab-core: avoid any change by the update
+  - python=3.12
+  # Geospatial (ESA)
+  - basemap
+  - basemap-data-hires
+  - cartopy
+  - fiona
+  - folium
+  - geojson
+  - geopandas
+  - geopy
+  - ipyleaflet
+  - ipyvolume
+  - netcdf4
+  - opencv
+  - openeo
+  - owslib
+  - pysolar
+  - rasterio
+  - rasterstats
+  - rio-cogeo
+  - rio-tiler
+  - rioxarray
+  - rtree
+  - shapely
+  - spatialpandas
+  - xarray-spatial
