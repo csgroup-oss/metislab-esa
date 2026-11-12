@@ -10,11 +10,16 @@ dependencies:
   - cartopy
   - fiona
   - folium
+  - gdal
   - geojson
   - geopandas
   - geopy
   - ipyleaflet
   - ipyvolume
+  - libgdal-grib
+  - libgdal-hdf5
+  - libgdal-jp2openjpeg
+  - libgdal-netcdf
   - netcdf4
   - opencv
   - openeo
