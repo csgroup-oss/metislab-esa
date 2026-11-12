@@ -8,12 +8,14 @@ dependencies:
   - basemap
   - basemap-data-hires
   - cartopy
+  - cfgrib
   - fiona
   - folium
   - gdal
   - geojson
   - geopandas
   - geopy
+  - h5netcdf
   - ipyleaflet
   # mapboxgl imports IPython.core.display.display, removed in IPython 9
   - ipython<9

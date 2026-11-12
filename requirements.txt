@@ -1,7 +1,8 @@
 # ESA / EODAG components (versions explicitly managed)
-eodag==3.9.0
-eodag-cube==0.6.1
-eodag-labextension==5.2.4
+# eodag-labextension >=5.3 requires eodag 4 and no longer pins notebook<7
+eodag==4.9.2
+eodag-cube==0.9.1
+eodag-labextension==5.3.1
 gdal2tiles
 jupyterlab-geojson
 mapboxgl
